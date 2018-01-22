@@ -1,0 +1,100 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid  Background="Gray" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="74*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="74*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Sun" Grid.Column="0" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Mon" Grid.Column="1" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Tue" Grid.Column="2" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Wed" Grid.Column="3" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Thu" Grid.Column="4" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Fri" Grid.Column="5" HorizontalAlignment="Center" Foreground="White"/>
+        <Label Content="Sat" Grid.Column="6" HorizontalAlignment="Center" Foreground="White"/>
+
+        <Label Content="26" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="1" Grid.Column="0" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="27" Background="#FF1F1D1B" Foreground="Gray"  Grid.Row="1" Grid.Column="1" Padding="50,5,0,0" Margin="0,2,2,2"  />
+        <Label Content="28" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="1" Grid.Column="2" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="29" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="1" Grid.Column="3" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="1" Background="#FF1F1D1B" Foreground="White" Grid.Row="1" Grid.Column="4" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="2" Background="#FF1F1D1B" Foreground="White" Grid.Row="1" Grid.Column="5" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="3" Background="#FF1F1D1B" Foreground="White" Grid.Row="1" Grid.Column="6" Padding="55,5,0,0" Margin="0,2,2,2" />
+
+        <Label Content="4" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="0" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="5" Background="#FF1F1D1B" Foreground="White"  Grid.Row="2" Grid.Column="1" Padding="55,5,0,0" Margin="0,2,2,2"  />
+        <Label Content="6" BorderBrush="Red" BorderThickness="2" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="2" Padding="55,5,0,0"  />
+        <TextBlock
+            Grid.Row="2" Grid.Column="2" Foreground="White" FontSize="7" VerticalAlignment="Center" Margin="3,0,1,1">Lunch with Susan
+        </TextBlock>
+        <Label Content="7" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="3" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="8" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="4" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="9" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="5" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="10" Background="#FF1F1D1B" Foreground="White" Grid.Row="2" Grid.Column="6" Padding="50,5,0,0" Margin="0,2,2,2" />
+
+        <Label Content="11" Background="#FF1F1D1B" Foreground="White" Grid.Row="3" Grid.Column="0" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="12" Background="#FF1F1D1B" Foreground="White"  Grid.Row="3" Grid.Column="1" Padding="50,5,0,0" Margin="0,2,2,2"  />
+        <Label Content="13" Background="#FF1F1D1B" Foreground="White" Grid.Row="3" Grid.Column="2" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="14" Background="Bisque" Foreground="White" Grid.Row="3" Grid.Column="3" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="15" Background="#FF1F1D1B" Foreground="White" Grid.Row="3" Grid.Column="4" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="16" Background="#FF1F1D1B" Foreground="White" Grid.Row="3" Grid.Column="5" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="17" Background="#FF1F1D1B" Foreground="White" Grid.Row="3" Grid.Column="6" Padding="50,5,0,0" Margin="0,2,2,2" />
+
+        <Label Content="18" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="0" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="19" Background="#FF1F1D1B" Foreground="White"  Grid.Row="4" Grid.Column="1" Padding="50,5,0,0" Margin="0,2,2,2"  />
+        <Label Content="20" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="2" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="21" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="3" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="22" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="4" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="23" BorderBrush="Red" BorderThickness="2" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="5" Padding="50,5,0,0" />
+        <TextBlock
+            Grid.Row="4" Grid.Column="5" Foreground="White" FontSize="7" VerticalAlignment="Center" Margin="3,8,1,1">UFC Fight
+        </TextBlock>
+        <TextBlock 
+            Grid.Row="4" Grid.Column="5" Foreground="White" FontSize="7" VerticalAlignment="Center" Margin="3,26,1,1">Party at Bill's
+        </TextBlock>
+        <Label Content="24" Background="#FF1F1D1B" Foreground="White" Grid.Row="4" Grid.Column="6" Padding="50,5,0,0" Margin="0,2,2,2" />
+
+        <Label Content="25" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="0" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="26"  BorderBrush="Red" BorderThickness="2" Background="#FF1F1D1B" Foreground="White"  Grid.Row="5" Grid.Column="1" Padding="50,5,0,0" />
+        <TextBlock
+            Grid.Row="5" Grid.Column="1" Foreground="White" FontSize="7" VerticalAlignment="Center" Margin="3,8,1,1">Dentist Appt
+        </TextBlock>
+        <Label Content="27" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="2" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="28" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="3" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="29" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="4" Padding="50,5,0,0" Margin="0,2,2,2" />
+        <Label Content="30" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="5" Padding="50,5,0,0"  Margin="0,2,2,2" />
+        <Label Content="31" Background="#FF1F1D1B" Foreground="White" Grid.Row="5" Grid.Column="6" Padding="50,5,0,0" Margin="0,2,2,2" />
+
+        <Label Content="1" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="0" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="2" Background="#FF1F1D1B" Foreground="Gray"  Grid.Row="6" Grid.Column="1" Padding="55,5,0,0" Margin="0,2,2,2"  />
+        <Label Content="3" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="2" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="4" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="3" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="5" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="4" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="6" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="5" Padding="55,5,0,0" Margin="0,2,2,2" />
+        <Label Content="7" Background="#FF1F1D1B" Foreground="Gray" Grid.Row="6" Grid.Column="6" Padding="55,5,0,0" Margin="0,2,2,2" />
+    </Grid>
+
+   
+</Window>
